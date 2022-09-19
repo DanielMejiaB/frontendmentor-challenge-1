@@ -104,10 +104,18 @@ button {
     padding: 30px;
     border-radius: 8px;
     border: none;
-    color: blue;
+    color: hsl(0, 0%, 100%);
     font-size: 16px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .5s ease;
+}
+
+button:hover {
+    background-color: hsl(159, 32%, 31%);
 }
 
 .icon {
@@ -115,19 +123,25 @@ button {
     text-decoration: none;
 }
 
-.icon:before {
+.icon {
     content: '';
     background: url('./assets/images/icon-cart.svg');
     background-size: cover;
-    position: absolute;
-    left: 100px;
+    display: inline-block;
     width: 20px;
     height: 20px;
+    margin-right: 8px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1420px) {
     .product {
         width: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    .product {
+        width: 90%;
     }
 }
 
