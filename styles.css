@@ -1,5 +1,8 @@
-body {
+html {
     font-size: 10px;
+}
+
+body {
     box-sizing: border-box;
     height: 100vh;
     background-color: hsl(30, 38%, 92%);
@@ -16,7 +19,7 @@ body {
 }
 
 .product {
-    width: 50%;
+    max-width: 30%;
     border-radius: 8px;
     background-color: hsl(0, 0%, 100%);
     display: grid;
@@ -65,7 +68,7 @@ body {
 .pd_description {
     grid-area: description;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .pd_creator {
