@@ -36,7 +36,7 @@ body {
 
 
 .product__description {
-    padding: 1.6rem;
+    padding: 3.2rem;
     grid-column: auto;
     display: grid;
     grid-template-areas: "title"
@@ -104,7 +104,7 @@ button {
     position: relative;
     outline: none;
     cursor: pointer;
-    padding: 30px;
+    padding: 2rem;
     border-radius: 8px;
     border: none;
     color: hsl(0, 0%, 100%);
